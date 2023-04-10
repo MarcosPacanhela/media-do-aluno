@@ -1,0 +1,73 @@
+body{
+    background: rgb(95, 95, 247);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+
+section{
+    background: white;
+    border-radius: 50px;
+    padding: 35px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+#button{
+    width: 250px;
+    color: white;
+    background: rgb(95, 95, 247);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.input{
+    width: 250px;
+}
+
+.titulo{
+    margin-top: 60px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    section{
+        background: white;
+        border-radius: 50px;
+        padding: 15px;
+        width: 85%;
+        margin: auto;
+        box-shadow: 5px 5px 10px black;
+        margin-top: 50px;
+        text-align: center;
+    
+    }
+
+    #button{
+        width: 90%;
+        color: white;
+        background: rgb(95, 95, 247);
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .input{
+        width: 85%;
+        
+    }
+
+    .titulo{
+        margin-top: 70px;
+    }
+}
