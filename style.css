@@ -42,6 +42,9 @@ footer{
 }
 
 @media screen and (max-width: 480px){
+    .principal{
+        touch-action: manipulation;
+    }
     section{
         background: white;
         border-radius: 50px;
