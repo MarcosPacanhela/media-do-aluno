@@ -60,11 +60,12 @@ footer{
         background: rgb(95, 95, 247);
         border-radius: 50px;
         cursor: pointer;
+        height: 40px;
     }
 
     .input{
         width: 85%;
-        
+        height: 40px;
     }
 
     .titulo{
